@@ -1,4 +1,4 @@
-// declare variables (technologies)
+// declare technologies used
 var inquirer = require("inquirer");
 var fs = require('fs');
 // setting questions with inquirer
@@ -67,7 +67,7 @@ ${data.description}
 
 -  [Usage](#usage)
 
--  [Lisense](#lisence)
+-  [License](#license)
 
 -  [Contributors](#contributors)
 

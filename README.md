@@ -10,9 +10,9 @@ This application uses node.js to prompt the user for information about their pro
 
 -  [Usage](#usage)
 
--  [License](#licence)
+-  [License](#license)
 
--  [Contributors](#contributors)
+-  [Contributing](#contributing)
 
 -  [Questions](#questions)
             
@@ -24,7 +24,8 @@ This application uses node.js to prompt the user for information about their pro
         
 ## Usage
 When the user runs `node index` then they are presented with a series of prompts. 
-<br>When the user answers each prompt then a quality readme file is generated with the correct information and working links.
+<br>
+When the user answers each prompt then a quality readme file is generated with the correct information and working links.
 
 ## License
 <img src='https://img.shields.io/badge/License-MIT-black' alt='github badge'>

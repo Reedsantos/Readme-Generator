@@ -44,26 +44,41 @@ inquirer
         message: "Email Address?"
     }]);
 
-const createfile = 
-`# Title
+const createFile = 
+`# ${data.title} <img src='https://img.shields.io/badge/License-${data.license}-black' alt='github badge'>
 ## Description
-
+${data.description}
 ### Table of Contents
-
 -  [Title](#title)
--  [Description](#description)
--  [Installation](#installation)
--  [Usage](#usage)
--  [Lisense](#lisence)
--  [Contributors](#contributors)
--  [Tests](#tests)
--  [Questions](#questions)
 
+-  [Description](#description)
+
+-  [Installation](#installation)
+
+-  [Usage](#usage)
+
+-  [Lisense](#lisence)
+
+-  [Contributors](#contributors)
+
+-  [Tests](#tests)
+
+-  [Questions](#questions)
+    
 ## Installation
+${data.installation}
     
 ## Usage
+${data.usage}
 ## License
+${data.lisence}
 ## Contributing
+${data.contributing}
 ## Tests
+${data.tests}
 ## Questions
-If anyone has any questions about my application please contact me below.`;
+If anyone has any questions about my application please contact me below.
+
+${data.email}
+
+[Github link](https://github.com/${data.githubUsername})`;

@@ -69,7 +69,7 @@ ${data.description}
 
 -  [License](#license)
 
--  [Contributors](#contributors)
+-  [Contributing](#contributing)
 
 -  [Tests](#tests)
 

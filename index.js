@@ -28,7 +28,7 @@ inquirer
         }, {
             type: "list",
             name: "license",
-            message: "What lisense will your project use? (Use arrow keys)",
+            message: "What license will your project use? (Use arrow keys)",
             choices: [
                 "MIT",
                 "GPL",

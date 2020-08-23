@@ -1,5 +1,5 @@
 # Readme-Generator <img src='https://img.shields.io/badge/License-MIT-black' alt='github badge'>
-![Screenshot](Screenshot.png)
+![Screenshot](screenshot.png)
 
 [Demo Link](https://drive.google.com/file/d/1V-f6ESha7IO-NiOjvgH5r8zri7gSkyhO/preview)
 

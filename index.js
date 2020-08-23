@@ -4,25 +4,30 @@ var fs = require('fs');
 inquirer
     .prompt([
         {
+            type: "message",
+            name: "greeting",
+            message: "Please answer each prompt as thoroughly as you can to generate a quality README.md file. Press enter to begin."
+        },
+        {
             type: "input",
             name: "title",
-            message: "Title?"
+            message: "What is the name of your repository?"
         }, {
             type: "input",
             name: "description",
-            message: "Description?"
+            message: "Please provide a description of your project."
         }, {
             type: "input",
             name: "installation",
-            message: "Installation?"
+            message: "What is the instalation process for the user in your project?"
         }, {
             type: "input",
             name: "usage",
-            message: "Usage?"
+            message: "Please provide the usage of your application."
         }, {
             type: "list",
             name: "license",
-            message: "lisence?",
+            message: "What lisense will your project use? (Use arrow keys)",
             choices: [
                 "MIT",
                 "GPL",
@@ -31,22 +36,21 @@ inquirer
         }, {
             type: "input",
             name: "contributing",
-            message: "Contributions?"
+            message: "Who else contributed to the project?"
         }, {
             type: "input",
             name: "tests",
-            message: "Tests?"
+            message: "Please list the tests you used during your project."
         }, {
             type: "input",
             name: "githubUsername",
-            message: "Github Username?"
+            message: "What is your Github Username?"
         }, {
             type: "input",
             name: "email",
-            message: "Email Address?"
+            message: "What is your email address?"
         }
     ]).then(function (data) {
-        
         const createFile =
             `# ${data.title} <img src='https://img.shields.io/badge/License-${data.license}-black' alt='github badge'>
 ## Description

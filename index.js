@@ -1,6 +1,7 @@
+// declare variables (technologies)
 var inquirer = require("inquirer");
 var fs = require('fs');
-
+// setting questions with inquirer
 inquirer
     .prompt([
         {
@@ -50,7 +51,9 @@ inquirer
             name: "email",
             message: "What is your email address?"
         }
+        // returns promise
     ]).then(function (data) {
+        // readme outline with template literals
         const createFile =
             `# ${data.title} <img src='https://img.shields.io/badge/License-${data.license}-black' alt='github badge'>
 ## Description
@@ -91,7 +94,7 @@ ${data.email}
 
 [Github link](https://github.com/${data.githubUsername})
 `
-
+        // creates new readme in 'new-readme' folder and executes the function
         fs.writeFile("./new-readme/README.md", createFile, function (err) {
 
             if (err) { return console.log(err) };

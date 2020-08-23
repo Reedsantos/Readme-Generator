@@ -1,5 +1,5 @@
 # Readme-Generator <img src='https://img.shields.io/badge/License-MIT-black' alt='github badge'>
-<iframe src="https://drive.google.com/file/d/1V-f6ESha7IO-NiOjvgH5r8zri7gSkyhO/preview" width="640" height="480"></iframe>
+[Demo Link](https://drive.google.com/file/d/1V-f6ESha7IO-NiOjvgH5r8zri7gSkyhO/preview)
 
 ## Description
 This application uses node.js to prompt the user for information about their project like description, installation, etc to create a quality readme. In this way, the user does not need to know markdown syntax as this application formats it with working links for the user.
